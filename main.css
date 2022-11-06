@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body{
+    font-size:16px;
+    font-family:'Oswald',sans-serif;
+    font-weight:normal;
+    background:#f1f1f1;
+    color:#0f141e;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info-text p{
+font-style: italic;
+font-weight: bold;
+color:#66c480;
+margin: 0px;
+}
+
+.info-text h4{
+   margin-bottom:10px
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.card-1{
+    background-color: #d7f7e0;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card-2{
+background-color: #e5d7f7;
+border-radius: 15px;
+padding: 15px 20px;
+margin-bottom: 20px;
+}
+
+.card-3{
+    background-color: #f2dec9;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+padding: 15px 20px;
+background-color: #000000;
+color:white;
+border: none;
+cursor: pointer;
+font-family: inherit;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    color:#66c480
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover{
+    color:aqua;
+}
+
+a:visited{
+    color:fuchsia;
+}
+
+a:active{
+    color:firebrick;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    margin-bottom: 10px;
+    color:coral;
+}
+
+.link-list{
+    list-style:square;
+
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    text-align: center;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color:palevioletred;
+}
+
+.footer{
+    text-align: center;
+}
+
+.directory{
+    border-radius: 20px;
+}
+
+.form-group label{
+    color:#c72ea6;
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border: none;
+    color: #000000;
+    font-family: inherit;
+    outline: none;
+}
+
+.form-row{
+    margin-bottom: 10px;
+}
+
+.form-row .form-group{
+    display: inline-block;
+    margin-right: 20px;
+    width: 47%;
+}
+
+.form-row .form-group:last-child{
+    margin: 0;
+}
+
+@media (max-width:650px){
+.form-row{
+    display:block;
+    }
+
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width:650px) {
+   .info{
+        display: block;
+        text-align: center;
+    }
+
+    img{
+        margin-left: 40px;
+    }
+}
